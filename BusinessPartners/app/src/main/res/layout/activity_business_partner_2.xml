@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+<EditText
+        android:id="@+id/bp_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/txt_bp_id"
+        android:maxLength="9" >
+    <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/bp_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/txt_bp_name" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/bp_street"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/txt_bp_street" />
+
+    <EditText
+        android:id="@+id/bp_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/txt_bp_city" />
+
+    <EditText
+        android:id="@+id/bp_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/txt_bp_country"
+        android:maxLength="2" />
+
+    <EditText
+        android:id="@+id/bp_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textUri"
+        android:hint="@string/txt_bp_URL" />
+
+</LinearLayout>
