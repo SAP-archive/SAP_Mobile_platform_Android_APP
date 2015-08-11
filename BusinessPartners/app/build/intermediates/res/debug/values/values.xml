@@ -34,7 +34,7 @@
     <string name="txt_bp_street">Street</string>
     <!-- From: file:/Development/GitRepositories/SAP_Mobile_platform_Android_APP/BusinessPartners/app/src/main/res/values/styles.xml -->
     <eat-comment/>
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
         <!-- Customize your theme here. -->
     </style>
 </resources>

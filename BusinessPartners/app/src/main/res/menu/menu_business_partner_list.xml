@@ -4,12 +4,10 @@
     <item
         android:id="@+id/menu_item_save"
         android:icon="@drawable/ic_action_new"
-        android:title="@string/desc_menu_new"
-        app:showAsAction="ifRoom" />
+        android:title="@string/desc_menu_new" />
     <item
         android:id="@+id/menu_item_refresh"
         android:icon="@drawable/ic_action_refresh"
-        android:title="@string/desc_menu_refresh"
-        app:showAsAction="ifRoom" />
+        android:title="@string/desc_menu_refresh"/>
 
 </menu>
