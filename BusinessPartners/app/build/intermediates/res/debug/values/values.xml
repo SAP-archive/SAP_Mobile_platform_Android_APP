@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Development/GitRepositories/SAP_Mobile_platform_Android_APP/BusinessPartners/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/Development/GitRepositories/SAP_Mobile_platform_Android_APP/BusinessPartners/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">BusinessPartners</string>
+    <string name="btn_bp">Business Partners</string>
+    <string name="btn_sync">Synchronization</string>
+    <string name="desc_menu_new">Create</string>
+    <string name="desc_menu_refresh">Synchronize</string>
+    <string name="desc_menu_save">Save</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="msg_flushbp_fail">Business Partners information could not be sent </string>
+    <string name="msg_flushbp_success">Business partners information was sent</string>
+    <string name="msg_getbp_fail">Business Partners could not be downloaded</string>
+    <string name="msg_getbp_success">Business partners were downloaded successfully</string>
+    <string name="msg_refreshbp_fail">Couldn not received Business Partner informaiton</string>
+    <string name="msg_refreshbp_success">Business partners was updated</string>
+    <string name="msg_sync_fail">Device could not be synchronized</string>
+    <string name="msg_sync_success">Synchronization finished successfully</string>
+    <string name="prg_sync">Synchronization is in Progress</string>
+    <string name="title_activity_business_partner">Create Business Partner</string>
+    <string name="title_activity_sales_order">Sales Order </string>
+    <string name="title_activity_sales_order_items_list">Sales Order Items</string>
+    <string name="txt_bp_URL">URL</string>
+    <string name="txt_bp_city">City</string>
+    <string name="txt_bp_country">Country</string>
+    <string name="txt_bp_id">Business Partner ID</string>
+    <string name="txt_bp_name"> Name</string>
+    <string name="txt_bp_street">Street</string>
+    <!-- From: file:/Development/GitRepositories/SAP_Mobile_platform_Android_APP/BusinessPartners/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvBusinessPartner"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_bp_name" />
+
+    <TextView
+        android:id="@+id/tvURL"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_bp_URL" />
+
+</LinearLayout>
+<!-- From: file:/Development/GitRepositories/SAP_Mobile_platform_Android_APP/BusinessPartners/app/src/main/res/layout/businesspartner_view.xml -->

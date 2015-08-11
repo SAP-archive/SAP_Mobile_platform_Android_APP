@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_item_save"
+        android:icon="@drawable/ic_action_new"
+        android:title="@string/desc_menu_new"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_item_refresh"
+        android:icon="@drawable/ic_action_refresh"
+        android:title="@string/desc_menu_refresh"
+        app:showAsAction="ifRoom" />
+
+</menu>
+<!-- From: file:/Development/GitRepositories/SAP_Mobile_platform_Android_APP/BusinessPartners/app/src/main/res/menu/menu_business_partner_list.xml -->
