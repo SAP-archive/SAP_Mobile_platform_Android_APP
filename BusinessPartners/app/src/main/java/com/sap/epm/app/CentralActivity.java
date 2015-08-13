@@ -1,8 +1,8 @@
 package com.sap.epm.app;
 
+import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -16,7 +16,7 @@ import com.sap.epm.odata.EntityCollection;
 import com.sap.epm.types.ODataOperation;
 
 
-public class CentralActivity extends ActionBarActivity implements UIListener{
+public class CentralActivity extends Activity implements UIListener{
     private static final String TAG = CentralActivity.class.getSimpleName();
 
     private ProgressDialog mProgressdialog;

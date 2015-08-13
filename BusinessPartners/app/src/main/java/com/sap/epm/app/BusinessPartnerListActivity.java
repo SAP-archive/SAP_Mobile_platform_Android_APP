@@ -1,11 +1,9 @@
 package com.sap.epm.app;
 
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Looper;
-import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -21,7 +19,7 @@ import com.sap.epm.odata.OfflineRefreshListener;
 import com.sap.epm.odata.OfflineRequestListener;
 import com.sap.epm.types.ODataOperation;
 
-public class BusinessPartnerListActivity extends ActionBarActivity implements UIListener {
+public class BusinessPartnerListActivity extends Activity implements UIListener {
     public static final String TAG = BusinessPartnerListActivity.class.getSimpleName();
 
 

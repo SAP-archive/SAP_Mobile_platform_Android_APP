@@ -1,7 +1,7 @@
 package com.sap.epm.app;
 
+import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -11,14 +11,12 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import com.sap.epm.R;
-import com.sap.epm.mbo.SalesOrder;
-import com.sap.epm.mbo.SalesOrderItems;
 import com.sap.epm.odata.OfflineGenericException;
 import com.sap.epm.odata.OfflineRequestListener;
 import com.sap.epm.odata.SalesOrderItemEntityCollection;
 import com.sap.epm.types.ODataOperation;
 
-public class SalesOrderItemsListActivity extends ActionBarActivity implements UIListener{
+public class SalesOrderItemsListActivity extends Activity implements UIListener{
     public static final String TAG = SalesOrderItemsListActivity.class.getSimpleName();
     public String fkId;
 

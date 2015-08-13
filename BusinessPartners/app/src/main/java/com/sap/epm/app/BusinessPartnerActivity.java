@@ -1,7 +1,7 @@
 package com.sap.epm.app;
 
+import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -18,7 +18,7 @@ import com.sap.epm.types.ODataOperation;
 
 import java.util.Random;
 
-public class BusinessPartnerActivity extends ActionBarActivity implements UIListener{
+public class BusinessPartnerActivity extends Activity implements UIListener{
     public static final String TAG = BusinessPartnerActivity.class.getSimpleName();
 
     private EditText childViewAgencyID, childViewAgencyName, childViewURL;
